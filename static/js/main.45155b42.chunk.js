@@ -741,7 +741,24 @@
                 )
               );
             },
-    
+            k = function () {
+                return c.a.createElement(
+                  "section",
+                  { className: "skills section", id: "skills" },
+                  c.a.createElement("h2", { className: "section__title" }, "Skills"),
+                  c.a.createElement(
+                    "span",
+                    { className: "section__subtitle" },
+                    "Tech Stack"
+                  ),
+                  c.a.createElement(
+                    "div",
+                    { className: "skills__container container grid" },
+                    c.a.createElement(h, null),
+                    c.a.createElement(b, null)
+                  )
+                );
+              },
         
         T = t(11),
         W =
@@ -989,7 +1006,6 @@
               { className: "main" },
               c.a.createElement(u, null),
               c.a.createElement(p, null),
-              c.a.createElement(k, null),
               c.a.createElement(h, null),
             ),
             c.a.createElement(G, null),
