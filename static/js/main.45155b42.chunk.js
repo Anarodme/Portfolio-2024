@@ -6,7 +6,7 @@
     ,
     ,
     function (e, a, t) {
-        e.exports = t.p + "static/media/about.09929dda.jpg";
+        e.exports = t.p + "static/media/me-icon-smiling.5abe33fbd03d140d5821.png";
     },
     function (e, a, t) {
       e.exports = t.p + "static/media/me-icon-smiling.5abe33fbd03d140d5821.png";
@@ -1007,7 +1007,6 @@
               c.a.createElement(u, null),
               c.a.createElement(p, null),
               c.a.createElement(k, null),
-              c.a.createElement(h, null),
               c.a.createElement(W, null)
             ),
             c.a.createElement(G, null),
