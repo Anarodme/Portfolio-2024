@@ -1007,8 +1007,6 @@
               c.a.createElement(u, null),
               c.a.createElement(p, null),
               c.a.createElement(k, null),
-              c.a.createElement(G, null),
-              c.a.createElement(W, null),
               c.a.createElement(h, null),
               c.a.createElement(W, null)
             ),
