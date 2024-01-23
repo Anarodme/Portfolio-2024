@@ -6,6 +6,9 @@
     ,
     ,
     function (e, a, t) {
+        e.exports = t.p + "static/media/about.09929dda.jpg";
+    },
+    function (e, a, t) {
       e.exports = t.p + "static/media/me-icon-smiling.5abe33fbd03d140d5821.png";
     },
     function (e, a, t) {
@@ -14,6 +17,16 @@
     function (e, a, t) {
       e.exports = t.p + "static/media/work1.7f91416f.jpg";
     },
+    function (e, a, t) {
+        e.exports = t.p + "static/media/work2.a139c43d.jpg";
+    },
+      function (e, a, t) {
+        e.exports = t.p + "static/media/work3.09b0176f.jpg";
+    },
+      function (e, a, t) {
+        e.exports = t.p + "static/media/work4.cc24c066.jpg";
+    },
+    ,
     function (e, a, t) {
       e.exports = t(32);
     },
@@ -356,7 +369,7 @@
               c.a.createElement(
                 "span",
                 { className: "about__subtitle" },
-                "4 years working"
+                "3 years working"
               )
             ),
             c.a.createElement(
@@ -450,12 +463,12 @@
                       d: "M11.25 17.7502H7.25C6.84 17.7502 6.5 17.4102 6.5 17.0002C6.5 16.5902 6.84 16.2502 7.25 16.2502H11.25C11.66 16.2502 12 16.5902 12 17.0002C12 17.4102 11.66 17.7502 11.25 17.7502Z",
                       fill: "var(--container-color)",
                     })
+                    )
                   )
                 )
               )
-            )
-          );
-        },
+            );
+          },
         h =
           (t(25),
           function () {
@@ -584,13 +597,13 @@
                         "span",
                         { className: "skills__level" },
                         "Intermediate"
+                        )
+                        )
                       )
                     )
                   )
-                )
-              )
-            );
-          }),
+                );
+              }),
         b = function () {
           return c.a.createElement(
             "div",
@@ -721,156 +734,174 @@
                       "span",
                       { className: "skills__level" },
                       "Intermediate"
+                      )
+                      )
                     )
                   )
                 )
-              )
-            )
-          );
-        },
+              );
+            },
+            k = function () {
+                return c.a.createElement(
+                  "section",
+                  { className: "skills section", id: "skills" },
+                  c.a.createElement("h2", { className: "section__title" }, "Skills"),
+                  c.a.createElement(
+                    "span",
+                    { className: "section__subtitle" },
+                    "Tech Stack"
+                  ),
+                  c.a.createElement(
+                    "div",
+                    { className: "skills__container container grid" },
+                    c.a.createElement(h, null),
+                    c.a.createElement(b, null)
+                  )
+                );
+              },
         
         T = t(11),
         W =
           (t(29),
-function () {
-  var e = Object(l.useRef)();
-  return c.a.createElement(
-    "section",
-    { className: "contact section", id: "contact" },
-    c.a.createElement(
-      "h2",
-      { className: "section__title" },
-      "Where to find me"
-    ),
-    c.a.createElement(
-      "span",
-      { className: "section__subtitle" },
-      "Contact Me"
-    ),
-    c.a.createElement(
-      "div",
-      { className: "contact__container container grid" },
-      c.a.createElement(
-        "div",
-        { className: "contact__content" },
-        c.a.createElement(
-          "h3",
-          { className: "contact__title" },
-          "Talk to me"
-        ),
-        c.a.createElement(
-          "div",
-          { className: "contact__info" },
-          c.a.createElement(
-            "div",
-            { className: "contact__card" },
-            c.a.createElement("i", {
-              className: "bx bx-mail-send contact__card-icon",
+            function () {
+            var e = Object(l.useRef)();
+            return c.a.createElement(
+                "section",
+                { className: "contact section", id: "contact" },
+                c.a.createElement(
+                "h2",
+                { className: "section__title" },
+                "Where to find me"
+                ),
+                c.a.createElement(
+                "span",
+                { className: "section__subtitle" },
+                "Contact Me"
+                ),
+                c.a.createElement(
+                "div",
+                { className: "contact__container container grid" },
+                c.a.createElement(
+                    "div",
+                    { className: "contact__content" },
+                    c.a.createElement(
+                    "h3",
+                    { className: "contact__title" },
+                    "Talk to me"
+                    ),
+                    c.a.createElement(
+                    "div",
+                    { className: "contact__info" },
+                    c.a.createElement(
+                        "div",
+                        { className: "contact__card" },
+                        c.a.createElement("i", {
+                        className: "bx bx-mail-send contact__card-icon",
+                        }),
+                        c.a.createElement(
+                        "h3",
+                        { className: "contact__card-title" },
+                        "Email"
+                        ),
+                        c.a.createElement(
+                        "span",
+                        { className: "contact__card-data" },
+                        "anrodriguezme@gmail.com"
+                        ),
+                        c.a.createElement(
+                        "a",
+                        {
+                            href: "mailto:anrodriguezme@gmail.com",
+                            className: "contact__button",
+                        },
+                        "Send me an email",
+                        " ",
+                        c.a.createElement("i", {
+                            className:
+                            "bx bx-right-arrow-alt contact__button-icon",
+                        })
+                        )
+                    ),
+                    c.a.createElement(
+                        "div",
+                        { className: "contact__card" },
+                        c.a.createElement("i", {
+                        className: "bx bxl-whatsapp contact__card-icon",
+                        }),
+                        c.a.createElement(
+                        "h3",
+                        { className: "contact__card-title" },
+                        "Linkedin"
+                        ),
+                        c.a.createElement(
+                        "a",
+                        {
+                            href: "https://www.linkedin.com/in/anarodme/",
+                            className: "contact__button",
+                        },
+                        "Connect on Linkedin",
+                        " ",
+                        c.a.createElement("i", {
+                            className:
+                            "bx bx-right-arrow-alt contact__button-icon",
+                        })
+                        )
+                    ),
+                    c.a.createElement(
+                        "div",
+                        { className: "contact__card" },
+                        c.a.createElement("i", {
+                        className: "bx bxl-githun contact__card-icon",
+                        }),
+                        c.a.createElement(
+                        "h3",
+                        { className: "contact__card-title" },
+                        "Github"
+                        ),
+                        c.a.createElement(
+                        "a",
+                        {
+                            href: "https://www.github.com/Anarodme/",
+                            className: "contact__button",
+                        },
+                        "Check my github",
+                        " ",
+                        c.a.createElement("i", {
+                            className:
+                            "bx bx-right-arrow-alt contact__button-icon",
+                        })
+                        )
+                    ),
+                    c.a.createElement(
+                        "div",
+                        { className: "contact__card" },
+                        c.a.createElement("i", {
+                        className: "bx bxl-instagram contact__card-icon",
+                        }),
+                        c.a.createElement(
+                        "h3",
+                        { className: "contact__card-title" },
+                        "Instagram"
+                        ),
+                        c.a.createElement(
+                        "a",
+                        {
+                            href: "https://www.instagram.com/anarodme/",
+                            className: "contact__button",
+                        },
+                        "Follow or DM on Instagram",
+                        " ",
+                        c.a.createElement("i", {
+                            className:
+                            "bx bx-right-arrow-alt contact__button-icon",
+                        })
+                        )
+                    )
+                    )
+                )
+                )
+            );
             }),
-            c.a.createElement(
-              "h3",
-              { className: "contact__card-title" },
-              "Email"
-            ),
-            c.a.createElement(
-              "span",
-              { className: "contact__card-data" },
-              "anrodriguezme@gmail.com"
-            ),
-            c.a.createElement(
-              "a",
-              {
-                href: "mailto:anrodriguezme@gmail.com",
-                className: "contact__button",
-              },
-              "Send me an email",
-              " ",
-              c.a.createElement("i", {
-                className:
-                  "bx bx-right-arrow-alt contact__button-icon",
-              })
-            )
-          ),
-          c.a.createElement(
-            "div",
-            { className: "contact__card" },
-            c.a.createElement("i", {
-              className: "bx bxl-whatsapp contact__card-icon",
-            }),
-            c.a.createElement(
-              "h3",
-              { className: "contact__card-title" },
-              "Linkedin"
-            ),
-            c.a.createElement(
-              "a",
-              {
-                href: "https://www.linkedin.com/in/anarodme/",
-                className: "contact__button",
-              },
-              "Connect on Linkedin",
-              " ",
-              c.a.createElement("i", {
-                className:
-                  "bx bx-right-arrow-alt contact__button-icon",
-              })
-            )
-          ),
-          c.a.createElement(
-            "div",
-            { className: "contact__card" },
-            c.a.createElement("i", {
-              className: "bx bxl-githun contact__card-icon",
-            }),
-            c.a.createElement(
-              "h3",
-              { className: "contact__card-title" },
-              "Github"
-            ),
-            c.a.createElement(
-              "a",
-              {
-                href: "https://www.github.com/Anarodme/",
-                className: "contact__button",
-              },
-              "Check my github",
-              " ",
-              c.a.createElement("i", {
-                className:
-                  "bx bx-right-arrow-alt contact__button-icon",
-              })
-            )
-          ),
-          c.a.createElement(
-            "div",
-            { className: "contact__card" },
-            c.a.createElement("i", {
-              className: "bx bxl-instagram contact__card-icon",
-            }),
-            c.a.createElement(
-              "h3",
-              { className: "contact__card-title" },
-              "Instagram"
-            ),
-            c.a.createElement(
-              "a",
-              {
-                href: "https://www.instagram.com/anarodme/",
-                className: "contact__button",
-              },
-              "Follow or DM on Instagram",
-              " ",
-              c.a.createElement("i", {
-                className:
-                  "bx bx-right-arrow-alt contact__button-icon",
-              })
-            )
-          )
-        )
-      )
-    )
-  );
-})
         G =
           (t(30),
           function () {
@@ -976,9 +1007,9 @@ function () {
               c.a.createElement(u, null),
               c.a.createElement(p, null),
               c.a.createElement(k, null),
-              c.a.createElement(g, null),
-              c.a.createElement(w, null),
-              c.a.createElement(H, null),
+              c.a.createElement(G, null),
+              c.a.createElement(W, null),
+              c.a.createElement(h, null),
               c.a.createElement(W, null)
             ),
             c.a.createElement(G, null),
