@@ -3,6 +3,8 @@ import "./home.css";
 import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
+import MeImg from "../../assets/profile.jpg";
+
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
           <Social />
 
           <div className="home__img"></div>
+             <img src={MeImg} alt="" className="home__img" />
+
 
           <Data />
         </div>
