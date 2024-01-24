@@ -818,7 +818,7 @@
                         "div",
                         { className: "contact__card" },
                         c.a.createElement("i", {
-                        className: "bx bxl-whatsapp contact__card-icon",
+                        className: "bx bxl-Linkedin contact__card-icon",
                         }),
                         c.a.createElement(
                         "h3",
@@ -843,7 +843,7 @@
                         "div",
                         { className: "contact__card" },
                         c.a.createElement("i", {
-                        className: "bx bxl-githun contact__card-icon",
+                        className: "bx bxl-github contact__card-icon",
                         }),
                         c.a.createElement(
                         "h3",
