@@ -9,7 +9,7 @@
         e.exports = t.p + "static/media/me-icon-smiling.5abe33fbd03d140d5821.png";
     },
     function (e, a, t) {
-      e.exports = t.p + "static/media/me-icon-smiling.5abe33fbd03d140d5821.png";
+      e.exports = t.p + "static/media/profile.jpg";
     },
     function (e, a, t) {
       e.exports = t.p + "static/media/resume2023.bbf53d4e.pdf";
