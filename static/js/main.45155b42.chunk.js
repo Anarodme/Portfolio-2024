@@ -781,14 +781,6 @@
                 c.a.createElement(
                 "div",
                 { className: "contact__container container grid" },
-                c.a.createElement(
-                    "div",
-                    { className: "contact__content" },
-                    c.a.createElement(
-                    "h3",
-                    { className: "contact__title" },
-                    "Talk to me"
-                    ),
                     c.a.createElement(
                     "div",
                     { className: "contact__info" },
