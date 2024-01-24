@@ -9,7 +9,7 @@
         e.exports = t.p + "static/media/me-icon-smiling.png";
     },
     function (e, a, t) {
-      e.exports = t.p + "static/media/profile.jpg";
+      e.exports = t.p + "static/media/ITEngineer.pdf";
     },
     function (e, a, t) {
       e.exports = t.p + "static/media/resume2023.bbf53d4e.pdf";
