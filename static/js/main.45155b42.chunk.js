@@ -818,7 +818,7 @@
                         "div",
                         { className: "contact__card" },
                         c.a.createElement("i", {
-                        className: "bx bxl-Linkedin contact__card-icon",
+                        className: "bx bxl-linkedin contact__card-icon",
                         }),
                         c.a.createElement(
                         "h3",
