@@ -6,10 +6,10 @@
     ,
     ,
     function (e, a, t) {
-        e.exports = t.p + "static/media/about.09929dda.jpg";
+        e.exports = t.p + "static/media/me-icon-smiling.png";
     },
     function (e, a, t) {
-      e.exports = t.p + "static/media/me-icon-smiling.5abe33fbd03d140d5821.png";
+      e.exports = t.p + "static/media/ITEngineer.pdf";
     },
     function (e, a, t) {
       e.exports = t.p + "static/media/resume2023.bbf53d4e.pdf";
@@ -152,27 +152,6 @@
                           className: "uil uil-file-alt nav__icon",
                         }),
                         " Skills"
-                      )
-                    ),
-                    c.a.createElement(
-                      "li",
-                      { className: "nav__item" },
-                      c.a.createElement(
-                        "a",
-                        {
-                          href: "#education",
-                          onClick: function () {
-                            return o("#education");
-                          },
-                          className:
-                            "#education" === m
-                              ? "nav__link active-link"
-                              : "nav__link",
-                        },
-                        c.a.createElement("i", {
-                          className: "uil uil-file-alt nav__icon",
-                        }),
-                        "Education"
                       )
                     ),
                     c.a.createElement(
@@ -491,130 +470,267 @@
             );
           },
         h =
-          (t(25),
-          function () {
+            (t(25),
+            function () {
+                return c.a.createElement(
+                "div",
+                { className: "skills__content" },
+                c.a.createElement("h3", { className: "skills__title" }, ""),
+                c.a.createElement(
+                    "div",
+                    { className: "skills__box" },
+                    c.a.createElement(
+                    "div",
+                    { className: "skills__group" },
+                    c.a.createElement(
+                        "div",
+                        { className: "skills__data" },
+                        c.a.createElement("i", { class: "bx bx-badge-check" }),
+                        c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
+                            "h3",
+                            { className: "skills__name" },
+                            "JavaScript"
+                        ),
+                        c.a.createElement(
+                            "span",
+                            { className: "skills__level" },
+                            "Advanced"
+                        )
+                        )
+                    ),
+                    c.a.createElement(
+                        "div",
+                        { className: "skills__data" },
+                        c.a.createElement("i", { class: "bx bx-badge-check" }),
+                        c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
+                            "h3",
+                            { className: "skills__name" },
+                            "Cisco"
+                        ),
+                        c.a.createElement(
+                            "span",
+                            { className: "skills__level" },
+                            "Advanced"
+                        )
+                        )
+                    ),
+                    c.a.createElement(
+                        "div",
+                        { className: "skills__data" },
+                        c.a.createElement("i", { class: "bx bx-badge-check" }),
+                        c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
+                            "h3",
+                            { className: "skills__name" },
+                            "Python"
+                        ),
+                        c.a.createElement(
+                            "span",
+                            { className: "skills__level" },
+                            "Advanced"
+                        )
+                        )
+                    )
+                    ),
+                    c.a.createElement(
+                    "div",
+                    { className: "skills__group" },
+                    c.a.createElement(
+                        "div",
+                        { className: "skills__data" },
+                        c.a.createElement("i", { class: "bx bx-badge-check" }),
+                        c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
+                            "h3",
+                            { className: "skills__name" },
+                            "Bootstrap"
+                        ),
+                        c.a.createElement(
+                            "span",
+                            { className: "skills__level" },
+                            "Advanced"
+                        )
+                        )
+                    ),
+                    c.a.createElement(
+                        "div",
+                        { className: "skills__data" },
+                        c.a.createElement("i", { class: "bx bx-badge-check" }),
+                        c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
+                            "h3",
+                            { className: "skills__name" },
+                            "GitHub"
+                        ),
+                        c.a.createElement(
+                            "span",
+                            { className: "skills__level" },
+                            "Advanced"
+                        )
+                        )
+                    ),
+                    c.a.createElement(
+                        "div",
+                        { className: "skills__data" },
+                        c.a.createElement("i", { class: "bx bx-badge-check" }),
+                        c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
+                            "h3",
+                            { className: "skills__name" },
+                            "React"
+                        ),
+                        c.a.createElement(
+                            "span",
+                            { className: "skills__level" },
+                            "Intermediate"
+                            )
+                            )
+                        )
+                        )
+                    )
+                    );
+                }),
+            b = function () {
             return c.a.createElement(
-              "div",
-              { className: "skills__content" },
-              c.a.createElement("h3", { className: "skills__title" }, ""),
-              c.a.createElement(
+                "div",
+                { className: "skills__content" },
+                c.a.createElement(
+                "h3",
+                { className: "skills__title" },
+                ""
+                ),
+                c.a.createElement(
                 "div",
                 { className: "skills__box" },
                 c.a.createElement(
-                  "div",
-                  { className: "skills__group" },
-                  c.a.createElement(
+                    "div",
+                    { className: "skills__group" },
+                    c.a.createElement(
                     "div",
                     { className: "skills__data" },
                     c.a.createElement("i", { class: "bx bx-badge-check" }),
                     c.a.createElement(
-                      "div",
-                      null,
-                      c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
                         "h3",
                         { className: "skills__name" },
-                        "JavaScript"
-                      ),
-                      c.a.createElement(
+                        "Node.js"
+                        ),
+                        c.a.createElement(
                         "span",
                         { className: "skills__level" },
-                        "Advanced"
-                      )
+                        "Intermediate"
+                        )
                     )
-                  ),
-                  c.a.createElement(
+                    ),
+                    c.a.createElement(
                     "div",
                     { className: "skills__data" },
                     c.a.createElement("i", { class: "bx bx-badge-check" }),
                     c.a.createElement(
-                      "div",
-                      null,
-                      c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
                         "h3",
                         { className: "skills__name" },
-                        "Cisco"
-                      ),
-                      c.a.createElement(
+                        "Java"
+                        ),
+                        c.a.createElement(
                         "span",
                         { className: "skills__level" },
-                        "Advanced"
-                      )
+                        "Intermediate"
+                        )
                     )
-                  ),
-                  c.a.createElement(
+                    ),
+                    c.a.createElement(
                     "div",
                     { className: "skills__data" },
                     c.a.createElement("i", { class: "bx bx-badge-check" }),
                     c.a.createElement(
-                      "div",
-                      null,
-                      c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
                         "h3",
                         { className: "skills__name" },
-                        "Python"
-                      ),
-                      c.a.createElement(
+                        "C#"
+                        ),
+                        c.a.createElement(
                         "span",
                         { className: "skills__level" },
-                        "Advanced"
-                      )
+                        "Intermediate"
+                        )
                     )
-                  )
+                    )
                 ),
                 c.a.createElement(
-                  "div",
-                  { className: "skills__group" },
-                  c.a.createElement(
+                    "div",
+                    { className: "skills__group" },
+                    c.a.createElement(
                     "div",
                     { className: "skills__data" },
                     c.a.createElement("i", { class: "bx bx-badge-check" }),
                     c.a.createElement(
-                      "div",
-                      null,
-                      c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
                         "h3",
                         { className: "skills__name" },
-                        "Bootstrap"
-                      ),
-                      c.a.createElement(
+                        "Oracle"
+                        ),
+                        c.a.createElement(
                         "span",
                         { className: "skills__level" },
-                        "Advanced"
-                      )
+                        "Intermediate"
+                        )
                     )
-                  ),
-                  c.a.createElement(
+                    ),
+                    c.a.createElement(
                     "div",
                     { className: "skills__data" },
                     c.a.createElement("i", { class: "bx bx-badge-check" }),
                     c.a.createElement(
-                      "div",
-                      null,
-                      c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
                         "h3",
                         { className: "skills__name" },
-                        "GitHub"
-                      ),
-                      c.a.createElement(
+                        "SQL"
+                        ),
+                        c.a.createElement(
                         "span",
                         { className: "skills__level" },
-                        "Advanced"
-                      )
+                        "Intermediate"
+                        )
                     )
-                  ),
-                  c.a.createElement(
+                    ),
+                    c.a.createElement(
                     "div",
                     { className: "skills__data" },
                     c.a.createElement("i", { class: "bx bx-badge-check" }),
                     c.a.createElement(
-                      "div",
-                      null,
-                      c.a.createElement(
+                        "div",
+                        null,
+                        c.a.createElement(
                         "h3",
                         { className: "skills__name" },
-                        "React"
-                      ),
-                      c.a.createElement(
+                        "NoSQL"
+                        ),
+                        c.a.createElement(
                         "span",
                         { className: "skills__level" },
                         "Intermediate"
@@ -624,143 +740,6 @@
                     )
                   )
                 );
-              }),
-        b = function () {
-          return c.a.createElement(
-            "div",
-            { className: "skills__content" },
-            c.a.createElement(
-              "h3",
-              { className: "skills__title" },
-              ""
-            ),
-            c.a.createElement(
-              "div",
-              { className: "skills__box" },
-              c.a.createElement(
-                "div",
-                { className: "skills__group" },
-                c.a.createElement(
-                  "div",
-                  { className: "skills__data" },
-                  c.a.createElement("i", { class: "bx bx-badge-check" }),
-                  c.a.createElement(
-                    "div",
-                    null,
-                    c.a.createElement(
-                      "h3",
-                      { className: "skills__name" },
-                      "Node.js"
-                    ),
-                    c.a.createElement(
-                      "span",
-                      { className: "skills__level" },
-                      "Intermediate"
-                    )
-                  )
-                ),
-                c.a.createElement(
-                  "div",
-                  { className: "skills__data" },
-                  c.a.createElement("i", { class: "bx bx-badge-check" }),
-                  c.a.createElement(
-                    "div",
-                    null,
-                    c.a.createElement(
-                      "h3",
-                      { className: "skills__name" },
-                      "Java"
-                    ),
-                    c.a.createElement(
-                      "span",
-                      { className: "skills__level" },
-                      "Intermediate"
-                    )
-                  )
-                ),
-                c.a.createElement(
-                  "div",
-                  { className: "skills__data" },
-                  c.a.createElement("i", { class: "bx bx-badge-check" }),
-                  c.a.createElement(
-                    "div",
-                    null,
-                    c.a.createElement(
-                      "h3",
-                      { className: "skills__name" },
-                      "C#"
-                    ),
-                    c.a.createElement(
-                      "span",
-                      { className: "skills__level" },
-                      "Intermediate"
-                    )
-                  )
-                )
-              ),
-              c.a.createElement(
-                "div",
-                { className: "skills__group" },
-                c.a.createElement(
-                  "div",
-                  { className: "skills__data" },
-                  c.a.createElement("i", { class: "bx bx-badge-check" }),
-                  c.a.createElement(
-                    "div",
-                    null,
-                    c.a.createElement(
-                      "h3",
-                      { className: "skills__name" },
-                      "Oracle"
-                    ),
-                    c.a.createElement(
-                      "span",
-                      { className: "skills__level" },
-                      "Intermediate"
-                    )
-                  )
-                ),
-                c.a.createElement(
-                  "div",
-                  { className: "skills__data" },
-                  c.a.createElement("i", { class: "bx bx-badge-check" }),
-                  c.a.createElement(
-                    "div",
-                    null,
-                    c.a.createElement(
-                      "h3",
-                      { className: "skills__name" },
-                      "SQL"
-                    ),
-                    c.a.createElement(
-                      "span",
-                      { className: "skills__level" },
-                      "Intermediate"
-                    )
-                  )
-                ),
-                c.a.createElement(
-                  "div",
-                  { className: "skills__data" },
-                  c.a.createElement("i", { class: "bx bx-badge-check" }),
-                  c.a.createElement(
-                    "div",
-                    null,
-                    c.a.createElement(
-                      "h3",
-                      { className: "skills__name" },
-                      "NoSQL"
-                    ),
-                    c.a.createElement(
-                      "span",
-                      { className: "skills__level" },
-                      "Intermediate"
-                      )
-                      )
-                    )
-                  )
-                )
-              );
             },
             k = function () {
                 return c.a.createElement(
@@ -779,7 +758,7 @@
                     c.a.createElement(b, null)
                   )
                 );
-              },
+            },
         
         T = t(11),
         W =
@@ -802,14 +781,6 @@
                 c.a.createElement(
                 "div",
                 { className: "contact__container container grid" },
-                c.a.createElement(
-                    "div",
-                    { className: "contact__content" },
-                    c.a.createElement(
-                    "h3",
-                    { className: "contact__title" },
-                    "Talk to me"
-                    ),
                     c.a.createElement(
                     "div",
                     { className: "contact__info" },
@@ -847,7 +818,7 @@
                         "div",
                         { className: "contact__card" },
                         c.a.createElement("i", {
-                        className: "bx bxl-whatsapp contact__card-icon",
+                        className: "bx bxl-linkedin contact__card-icon",
                         }),
                         c.a.createElement(
                         "h3",
@@ -872,7 +843,7 @@
                         "div",
                         { className: "contact__card" },
                         c.a.createElement("i", {
-                        className: "bx bxl-githun contact__card-icon",
+                        className: "bx bxl-github contact__card-icon",
                         }),
                         c.a.createElement(
                         "h3",
@@ -921,7 +892,6 @@
                     )
                 )
                 )
-            );
             }),
         G =
           (t(30),
@@ -1028,7 +998,6 @@
               c.a.createElement(u, null),
               c.a.createElement(p, null),
               c.a.createElement(k, null),
-              c.a.createElement(h, null),
               c.a.createElement(W, null)
             ),
             c.a.createElement(G, null),
